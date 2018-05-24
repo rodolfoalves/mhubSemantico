@@ -1,0 +1,19 @@
+package br.gov.ma.myapplication;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import br.pucrio.inf.lac.mhub.models.locals.SensorData;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        SensorData sensorData = new SensorData();
+
+
+    }
+}
